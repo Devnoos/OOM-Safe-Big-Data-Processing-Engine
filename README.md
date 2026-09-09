@@ -17,7 +17,7 @@ The project is broken down into three main scripts:
 2. **`chunk_reader.py`:** The heart of the project. It opens the massive file and uses a Python generator (`yield`) to read the data chunk-by-chunk, keeping the memory footprint close to zero.
 3. **`analyzer.py`:** Connects to the chunk reader. It takes those small chunks one by one and performs data processing/calculations on the fly.
 
-## 💻 How to Run
+##  How to Run
 
 1. Clone this repository to your local machine.
 2. First, run the data generator to create your test file (Warning: It will create a large file locally!).
