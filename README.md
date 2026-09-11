@@ -22,7 +22,7 @@ The project is broken down into three main scripts:
 1. Clone this repository to your local machine.
 2. First, run the data generator to create your test file (Warning: It will create a large file locally!).
    ```bash
-   python data_generator.py 
+   python create_dummy_data.py 
    ```
 3. Then, run the analyzer to see the chunk-processing in action:
     ```bash
